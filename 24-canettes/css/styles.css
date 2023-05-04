@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    height: 100%;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+    border: 3px solid black;
+}
+
+div {
+    box-sizing: border-box;
+}
+
+.zone1,
+.zone2 {
+    width: 50%;
+    padding: 20px;
+}
+
+.zone1 {
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.zone2 {
+    background-color: royalblue;
+}
+
+#choixCouleurs {
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+}
+
+#choixCouleurs img {
+    margin: 10px;
+    width: 100px;
+    cursor: pointer;
+}
+
+h1 {
+    color: white;
+    font-size: 1.8em;
+}
+
+h2 {
+    margin-top: 20px;
+    color: black;
+    font-size: 1.4em;
+}
+
+#ligne {
+    width: 100%;
+    height: 40px;
+    font-size: 1.4em;
+}
+
+#zoneTexte {
+    border: 10px solid lime;
+    width: 200px;
+    height: 450px;
+    color: white;
+    text-align: center;
+    box-sizing: border-box;
+    position: relative;
+    font-size: 1.4em;
+}
+
+h3 {
+    margin-top: 30px;
+    font-size: 1.2em;
+}
+
+.ancre {
+    margin-top: 30px;
+}
+
+.bt {
+    text-decoration: none;
+    background-color: white;
+    color: black;
+    padding: 15px;
+}
+
+.bt:hover {
+    background-color: orange;
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script defer src="js/main.js"></script>
+</head>
+
+<body>
+    <div id="zone1">
+        <div class="head">
+            <h1>Galerie</h1>
+            <div class="filtre">
+                <select id="filtre" onchange="majFiltre(this)">
+                    <option value="afficherTout">Tout afficher</option>
+                    <option value="animal">Animal</option>
+                    <option value="paysage">Paysage</option>
+                    <option value="personne">Personne</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="grandeVignette">
+            <div class="encart">
+                <div class="part">
+                    <h4>Nom</h4>
+                    <h3 class="nom"></h3>
+                </div>
+                <div class="part">
+                    <h4>Catégorie</h4>
+                    <h3 class="categorie"></h3>
+                </div>
+                <div class="part">
+                    <h4>Prix</h4>
+                    <h3 class="prix"></h3>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="zone2"></div>
+</body>
+
+</html>

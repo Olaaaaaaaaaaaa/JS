@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script defer src="js/main.js"></script>
+</head>
+
+<body>
+    <div class="zone1">
+        <div id="zoneTexte">
+
+        </div>
+    </div>
+    <div class="zone2">
+        <h1 onclick="console.log('oui')">Personnalisez votre canette</h1>
+        <h2>COULEUR DE CANETTE</h2>
+        <div id="choixCouleurs"></div>
+        <h2>TEXTE</h2>
+        <input id="ligne" type="text" name="nom" placeholder="votre texte" value="good vibes" onkeyup="majTexte(this)">
+        <h3>Position</h3>
+        <div class="ancre move">
+            <a class="bt" id="posGauche" onclick="moveTexteLeft()">&gt;</a>
+            <a class="bt" id="posDroite" onclick="moveTexteRight()">&lt;</a>
+            <a class="bt" id="posHaut" onclick="moveTexteUp()">^</a>
+            <a class="bt" id="posBas" onclick="moveTexteDown()">v</a>
+        </div>
+        <h3>Police</h3>
+        <div class="ancre police">
+            <a href="#" class="bt" data-police="Arial">Arial</a>
+            <a href="#" class="bt" data-police="Verdana">Verdana</a>
+            <a href="#" class="bt" data-police="Courrier">Courrier</a>
+        </div>
+    </div>
+</body>
+
+</html>
